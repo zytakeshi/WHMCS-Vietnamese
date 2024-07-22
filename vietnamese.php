@@ -1,5 +1,6 @@
 <?php
-if (!defined("WHMCS")) die("You cannot access this file directly");
+if (!defined("WHMCS")) die("This file cannot be accessed directly");
+
 $_LANG['locale'] = "vi_VN";
 $_LANG['accountinfo'] = "Thông tin tài khoản";
 $_LANG['accountstats'] = "Thống kê tài khoản";
@@ -323,7 +324,7 @@ $_LANG['domainregisterns'] = "Đăng ký máy chủ tên";
 $_LANG['domainregisternscurrentip'] = "Địa chỉ IP hiện tại";
 $_LANG['domainregisternsdel'] = "Xóa máy chủ tên";
 $_LANG['domainregisternsdelsuccess'] = "Máy chủ tên đã được xóa thành công";
-$_LANG['domainregisternsexplanation'] = "Từ đây bạn có thể tạo và quản lý máy chủ tên tùy chỉnh cho miền của mình (ví dụ: NS1.example.com, NS2.example.com....");
+$_LANG['domainregisternsexplanation'] = "Từ đây bạn có thể tạo và quản lý máy chủ tên tùy chỉnh cho miền của mình (ví dụ: NS1.example.com, NS2.example.com....)";
 $_LANG['domainregisternsip'] = "Địa chỉ IP";
 $_LANG['domainregisternsmod'] = "Sửa đổi IP máy chủ tên";
 $_LANG['domainregisternsmodsuccess'] = "Máy chủ tên đã được sửa đổi thành công";
@@ -845,7 +846,7 @@ $_LANG['loggedInAs'] = "Đăng nhập với tư cách";
 $_LANG['viewAllPricing'] = "Xem tất cả mức giá";
 $_LANG['default'] = "Mặc định";
 $_LANG['maxFileSize'] = "Kích thước tệp tối đa: :fileSize";
-# Phiên bản 4.1
+// Phiên bản 4.1
 $_LANG['clientareafiles'] = "Tệp đính kèm";
 $_LANG['clientareafilesdate'] = "Ngày thêm";
 $_LANG['clientareafilesfilename'] = "Tên tệp";
@@ -873,7 +874,7 @@ $_LANG['creditcarddeleteconfirmation'] = "Chi tiết thẻ tín dụng được 
 $_LANG['creditcardupdatenotpossible'] = "Không thể cập nhật chi tiết thẻ tín dụng vào thời điểm hiện tại. Vui lòng thử lại sau.";
 $_LANG['invoice Paymentsuccessconfirmation'] = "Cảm ơn bạn! Thanh toán của bạn đã thành công.";
 $_LANG['invoice Paymentfailedconfirmation'] = "Rất tiếc, nỗ lực thanh toán của bạn không thành công.<br />Vui lòng thử lại hoặc liên hệ với bộ phận hỗ trợ.";
-# Phiên bản 4.2
+// Phiên bản 4.2
 $_LANG['promoappliedbutnodiscount'] = "Mã khuyến mãi bạn nhập đã được áp dụng cho giỏ hàng của bạn nhưng chưa có mặt hàng nào đủ điều kiện để được giảm giá - vui lòng kiểm tra các điều khoản khuyến mãi";
 $_LANG['upgradeerroroverdueinvoice'] = "Bạn hiện không thể nâng cấp hoặc hạ cấp sản phẩm này vì hóa đơn đã được tạo cho lần gia hạn tiếp theo.<br /><br />Để tiếp tục, trước tiên vui lòng thanh toán hóa đơn chưa thanh toán và sau đó bạn sẽ có thể nâng cấp hoặc hạ cấp ngay sau đó và được tính phí chênh lệch hoặc ghi có nếu thích hợp.";
 $_LANG['upgradebeingupgradeinvoice'] = "Hiện tại, bạn không thể nâng cấp hoặc hạ cấp sản phẩm này vì quá trình nâng cấp hoặc hạ cấp đang diễn ra.<br /><br />Để tiếp tục, trước tiên vui lòng thanh toán hóa đơn chưa thanh toán và sau đó bạn mới có thể để nâng cấp hoặc hạ cấp ngay sau đó và được tính khoản chênh lệch hoặc ghi có nếu thích hợp.<br/><br/>Nếu bạn cho rằng mình nhận được thông báo này do nhầm lẫn, vui lòng gửi phiếu xử lý sự cố.";
@@ -912,7 +913,7 @@ $_LANG['masspaydescription'] = "Dưới đây là bản tóm tắt các hóa đ�
 $_LANG['masspayselected'] = "Trả tiền đã chọn";
 $_LANG['masspayall'] = "Thanh toán tất cả";
 $_LANG['masspaymakepay'] = "Thanh toán";
-# Phiên bản 4.3
+// Phiên bản 4.3
 $_LANG['searchenterdomain'] = "Nhập tên miền để tìm";
 $_LANG['searchfilter'] = "Bộ lọc";
 $_LANG['suspendreason'] = "Lý do tạm dừng";
@@ -950,7 +951,7 @@ $_LANG['chatlivehelp'] = "Trợ giúp trực tiếp";
 $_LANG['domainrelease'] = "Giải phóng tên miền";
 $_LANG['domainreleasedescription'] = "Nhập TAG mới vào đây để chuyển tên miền của bạn sang nhà đăng ký khác";
 $_LANG['domainreleasetag'] = "Thẻ đăng ký mới";
-# Mẫu đơn đặt hàng Ajax
+// Mẫu đơn đặt hàng Ajax
 $_LANG['orderformtitle'] = "Mẫu đơn đặt hàng";
 $_LANG['signup'] = "Đăng ký";
 $_LANG['loading'] = "Đang tải...";
@@ -973,11 +974,11 @@ $_LANG['cartdomainunavailableoptions'] = "Xin lỗi, tên miền này đã đư�
 $_LANG['cartdomainunavailabletransfer'] = "Vui lòng chuyển miền của tôi cho";
 $_LANG['cartdomainunavailablemanual'] = "Tôi đã sở hữu tên miền này và sẽ cập nhật máy chủ tên";
 $_LANG['cartdomaininvalid'] = "Tên miền bạn đã nhập không hợp lệ. Chỉ nhập phần sau www. và bao gồm TLD";
-# Phiên bản 4.4
+// Phiên bản 4.4
 $_LANG['dlinvalidlink'] = "Liên kết đã theo dõi không hợp lệ. Vui lòng liên hệ với bộ phận hỗ trợ";
 $_LANG['domaindnsmanagementlaunch'] = "Khởi chạy Trình quản lý DNS";
 $_LANG['domainemailforwardinglaunch'] = "Khởi chạy Trình quản lý chuyển tiếp thư";
-# Phiên bản 4.5
+// Phiên bản 4.5
 $_LANG['domaindnspriority'] = "Ưu tiên";
 $_LANG['domaindnsmxonly'] = "Bản ghi ưu tiên chỉ dành cho MX";
 $_LANG['orderpromoprestart'] = "Chương trình khuyến mãi này chưa bắt đầu. Vui lòng thử lại sau.";
@@ -1049,10 +1050,10 @@ $_LANG['beingcustomer'] = "Khách hàng hiện tại";
 $_LANG['newcustomersignup'] = "<strong>Chưa đăng ký?</strong> %sNhấp vào đây để đăng ký...%s";
 $_LANG['upgradeonselectedoptions'] = "(Trên các tùy chọn đã chọn)";
 $_LANG['recurringpromodesc'] = "Mã khuyến mãi này cũng bao gồm %s Chiết khấu định kỳ<br />(Mã giảm giá này sẽ áp dụng cho những lần gia hạn tổng giá sản phẩm trong tương lai)";
-# Phiên bản 4.5.2
+// Phiên bản 4.5.2
 $_LANG['ajaxcartcheckout'] = "Chuyển thẳng đến phần thanh toán &raquo;";
 $_LANG['ajaxcartconfigreqnotice'] = "Bạn đang chuẩn bị đăng ký với chúng tôi, nhưng bạn phải chọn miền trước khi có thể thêm sản phẩm đã chọn vào giỏ hàng của mình...";
-# Phiên bản 5.0.0
+// Phiên bản 5.0.0
 $_LANG['cancelrequestdomain'] = "Hủy gia hạn tên miền?";
 $_LANG['cancelrequestdomaindesc'] = "Bạn cũng có đăng ký miền đang hoạt động cho miền được liên kết với sản phẩm này<br />Miền này sẽ được gia hạn vào %s với chi phí %s cho %s Năm/s<br /><br />Nếu bạn cũng muốn hủy miền và để miền hết hạn khi kết thúc đăng ký hiện tại, hãy chọn hộp bên dưới.";
 $_LANG['cancelrequestdomainconfirm'] = "Tôi xác nhận rằng tôi không muốn gia hạn lại tên miền này";
@@ -1076,7 +1077,7 @@ $_LANG['domaincontactprimary'] = "Dữ liệu hồ sơ chính";
 $_LANG['invoicepdfgenerated'] = "PDF được tạo trên";
 $_LANG['domainrenewalsBeforerenewlimit'] = "Gia hạn trước tối thiểu là %s ngày";
 $_LANG['promonewsignupsonly'] = "Mã khuyến mại này chỉ có hiệu lực đối với khách hàng mới";
-# Quản lý tên miền hàng loạt
+// Quản lý tên miền hàng loạt
 $_LANG['domainbulkmanagement'] = "Hành động quản lý hàng loạt";
 $_LANG['domainbulkmanagementchangesaffect'] = "Những thay đổi được thực hiện bên dưới sẽ ảnh hưởng đến các tên miền sau:";
 $_LANG['domainbulkmanagementchangeaffect'] = "Thay đổi này sẽ áp dụng cho các tên miền sau:";
@@ -1093,7 +1094,7 @@ $_LANG['domainreglockenable'] = "Kích hoạt khóa đăng ký";
 $_LANG['domainreglockdisable'] = "Vô hiệu hóa khóa đăng ký";
 $_LANG['domaincontactinfoedit'] = "Chỉnh sửa thông tin liên hệ";
 $_LANG['domainmassrenew'] = "Gia hạn tên miền";
-# reCAPTCHA
+// reCAPTCHA
 $_LANG['captchatitle'] = "Xác minh Bot thư rác";
 $_LANG['captchaverify'] = "Vui lòng nhập các ký tự bạn nhìn thấy trong hình ảnh bên dưới vào hộp văn bản được cung cấp. Điều này là cần thiết để ngăn việc gửi tự động.";
 $_LANG['captchaverifyincurrify'] = "Các ký tự bạn nhập không khớp với hình ảnh hiển thị. Vui lòng thử lại.";
@@ -1101,7 +1102,7 @@ $_LANG['googleRecaptchaIn Correct'] = "Vui lòng hoàn thành hình ảnh xác t
 $_LANG['recaptcha-invalid-site-private-key'] = "Đã xảy ra lỗi, vui lòng liên hệ với bộ phận hỗ trợ (mã lỗi: cap1)";
 $_LANG['recaptcha-invalid-request-cookie'] = "Đã xảy ra lỗi, vui lòng thử lại (mã lỗi: cap2)";
 $_LANG['recaptcha-incid-captcha-sol'] = "Các ký tự bạn nhập không khớp với xác minh từ. Vui lòng thử lại.";
-# Gói sản phẩm
+// Gói sản phẩm
 $_LANG['bundledeal'] = "Thỏa thuận theo gói!";
 $_LANG['bundlevaliddateserror'] = "Gói không khả dụng";
 $_LANG['bundlevaliddateserrordesc'] = "Gói này chưa hoạt động hoặc đã hết hạn. Nếu bạn cảm thấy thông báo này là lỗi, vui lòng liên hệ với bộ phận hỗ trợ.";
@@ -1119,7 +1120,7 @@ $_LANG['bundlewarningdomainreq'] = "Gói đã chọn yêu cầu bạn đăng ký
 $_LANG['bundlewarningdomaintld'] = "Gói đã chọn yêu cầu bạn chọn tên miền có (các) phần mở rộng '%s' cho tên miền %s để đủ điều kiện";
 $_LANG['bundlewarningdomainreg Period'] = "Gói đã chọn yêu cầu bạn chọn thời gian đăng ký '%s' cho tên miền %s để đủ điều kiện";
 $_LANG['bundlewarningdomainaddon'] = "Gói đã chọn yêu cầu bạn chọn addon '%s' cho tên miền %s để đủ điều kiện";
-# Dòng mẫu khu vực khách hàng mới
+// Dòng mẫu khu vực khách hàng mới
 $_LANG['navservices'] = "Dịch vụ";
 $_LANG['navservicesorder'] = "Đặt dịch vụ mới";
 $_LANG['navservicesplaceorder'] = "Đặt đơn hàng mới";
@@ -1235,7 +1236,7 @@ $_LANG['affiliatesignupintro'] = "Kích hoạt tài khoản liên kết của b�
 $_LANG['affiliatesignupinfo1'] = "Chúng tôi trả tiền hoa hồng cho mỗi lần đăng ký thông qua liên kết đăng ký tùy chỉnh của bạn.";
 $_LANG['affiliatesignupinfo2'] = "Chúng tôi theo dõi những khách truy cập mà bạn giới thiệu cho chúng tôi bằng cookie, vì vậy những người dùng mà bạn giới thiệu không cần phải mua hàng ngay lập tức để bạn nhận được hoa hồng. Cookie tồn tại đến 90 ngày sau lần truy cập đầu tiên. ";
 $_LANG['affiliatesignupinfo3'] = "Nếu bạn muốn tìm hiểu thêm, vui lòng liên hệ với chúng tôi.";
-#Phiên bản 5.1
+// Phiên bản 5.1
 $_LANG['copyright'] = "Bản quyền";
 $_LANG['allrightsreserved'] = "Mọi quyền được bảo lưu";
 $_LANG['supportticketsclose'] = "Đóng";
@@ -1277,7 +1278,7 @@ $_LANG['billableitemsquantity'] = "Số lượng";
 $_LANG['billableitemseach'] = "Mỗi";
 $_LANG['invoicefilename'] = "Hóa đơn-";
 $_LANG['quotefilename'] = "Trích dẫn-";
-# Tiện ích bổ sung tên miền
+// Tiện ích bổ sung tên miền
 $_LANG['domainaddons'] = "Tiện ích bổ sung";
 $_LANG['domainaddonsinfo'] = "Các tiện ích bổ sung sau có sẵn cho (các) tên miền của bạn...";
 $_LANG['domainaddonsdnsmanagement'] = "Quản lý bản ghi máy chủ DNS";
@@ -1290,7 +1291,7 @@ $_LANG['domainaddonscancelareyousure'] = "Bạn có chắc chắn muốn tắt v
 $_LANG['domainaddonsconfirm'] = "Xác nhận hủy";
 $_LANG['domainaddonscancelsuccess'] = "Đã hủy kích hoạt Addon thành công!";
 $_LANG['domainaddonscancelfailed'] = "Không thể tắt tiện ích bổ sung. Vui lòng liên hệ với bộ phận hỗ trợ.";
-# Phiên bản 5.2
+// Phiên bản 5.2
 $_LANG['yourclientareahostingaddons'] = "Bạn có các tiện ích bổ sung sau cho sản phẩm này.";
 $_LANG['loginrequired'] = "Yêu cầu đăng nhập";
 $_LANG['unsubscribe'] = "Hủy đăng ký";
@@ -1360,7 +1361,7 @@ $_LANG['twofageneralerror'] = "Đã xảy ra lỗi khi tải mô-đun. Vui lòng
 $_LANG['continue'] = "Tiếp tục";
 $_LANG['disable'] = "Tắt";
 $_LANG['manage'] = "Quản lý";
-#Phiên bản 5.3
+// Phiên bản 5.3
 $_LANG['quoteacceptancetitle'] = "Chấp nhận trích dẫn";
 $_LANG['quoteacceptancehowto'] = "Để chấp nhận báo giá, vui lòng xác nhận việc bạn chấp nhận các điều khoản dịch vụ của chúng tôi mà bạn có thể xem @";
 $_LANG['quoteacceptancewarning'] = "Xin lưu ý rằng việc chấp nhận báo giá được coi là ký kết hợp đồng và bạn sẽ không thể hủy sau khi đã chấp nhận.";
@@ -1421,7 +1422,7 @@ $_LANG['ssounabletologin'] = "Không thể tự động đăng nhập. Vui lòng
 $_LANG['ssofatalerror'] = "Đã xảy ra lỗi nghiêm trọng. Vui lòng liên hệ với bộ phận hỗ trợ.";
 $_LANG['customActionGenericError'] = "Không thể thực hiện hành động. Vui lòng liên hệ với bộ phận hỗ trợ.";
 $_LANG['customActionException'] = "Đã xảy ra ngoại lệ. Vui lòng liên hệ với bộ phận hỗ trợ.";
-# Phiên bản 6.0
+// Phiên bản 6.0
 $_LANG['announcementschoosemonth'] = "Chọn tháng";
 $_LANG['announcementsbymonth'] = "Theo tháng";
 $_LANG['announcementsolder'] = "Thông báo cũ hơn";
@@ -1649,7 +1650,7 @@ $_LANG['domainchecker']['alreadyincartmsg'] = "Miền này đã có trong giỏ 
 $_LANG['domainchecker']['alreadyincartcheckoutnow'] = "Thanh toán ngay";
 $_LANG['genericerror']['title'] = "Rất tiếc, đã xảy ra lỗi!";
 $_LANG['genericerror']['msg'] = "Vui lòng thử lại và nếu sự cố vẫn tiếp diễn, vui lòng liên hệ với nhóm hỗ trợ của chúng tôi.";
-# Addon cấp phép
+// Addon cấp phép
 $_LANG['licensingaddon']['mylicenses'] = "Giấy phép của tôi";
 $_LANG['licensingaddon']['latestdownload'] = "Tải xuống mới nhất";
 $_LANG['licensingaddon']['downloadnow'] = "Tải xuống ngay";
@@ -1663,7 +1664,7 @@ $_LANG['licensingaddon']['reissuestatusmsg'] = "Miền, IP và Thư mục hợp 
 $_LANG['licensingaddon']['manageLicens'] = "Quản lý giấy phép";
 $_LANG['affiliateWithdrawalSummary'] = "Bạn sẽ có thể yêu cầu rút tiền ngay khi số dư của bạn đạt đến số tiền tối thiểu được yêu cầu là :amountForWithdrawal.";
 $_LANG['projectQuản lý']['activeProjects'] = "Dự án đang hoạt động của bạn";
-# Mô-đun cPanel
+// Mô-đun cPanel
 $_LANG['packageDomain'] = "Gói/Miền";
 $_LANG['addonsExtras'] = "Tiện ích bổ sung và tiện ích bổ sung";
 $_LANG['purchaseActivate'] = "Mua và kích hoạt";
@@ -2500,7 +2501,7 @@ $_LANG['store']['codeGuard']['faq']['a1'] = "CodeGuard là dịch vụ sao lưu 
 $_LANG['store']['codeGuard']['faq']['q2'] = "Tại sao tôi cần CodeGuard?";
 $_LANG['store']['codeGuard']['faq']['a2'] = "CodeGuard cung cấp giải pháp sao lưu ngoại vi độc lập cho trang web của bạn cùng với giám sát hàng ngày để đảm bảo trang web của bạn trực tuyến và không có phần mềm độc hại.";
 $_LANG['store']['codeGuard']['faq']['q3'] = "Nó hoạt động như thế nào?";
-$_LANG['store']['codeGuard' thích phiên bản bất cứ lúc nào.";
+$_LANG['store']['codeGuard']['faq']['a3'] = "CodeGuard thực hiện các ảnh chụp tự động hàng ngày của trang web của bạn. Sử dụng những ảnh chụp này, bạn có thể khôi phục toàn bộ trang web hoặc một tệp cụ thể về phiên bản trước đó bất cứ lúc nào.";
 $_LANG['store']['codeGuard']['faq']['q4'] = "Nếu tôi hết dung lượng thì sao?";
 $_LANG['store']['codeGuard']['faq']['a4'] = "Chuyển đổi gói thật dễ dàng! Bạn có thể nâng cấp và tăng dung lượng lưu trữ ổ đĩa cho phép chỉ bằng vài cú nhấp chuột đơn giản thông qua khu vực khách hàng của chúng tôi." ;
 $_LANG['store']['codeGuard']['faq']['q5'] = "Các bản sao lưu được lưu trữ ở đâu?";
@@ -2539,7 +2540,7 @@ $_LANG['generatePassword']['copyAndInsert'] = "Sao chép vào clipboard và chè
 $_LANG['setupMandate'] = "Thiết lập ủy nhiệm thanh toán";
 $_LANG['invoicePaymentPendingCleared'] = "Thanh toán của bạn đang được xử lý và sẽ tự động áp dụng khi bị xóa.";
 $_LANG['invoicePaymentAutoWhenDue'] = "Thanh toán của bạn sẽ được yêu cầu tự động khi đến hạn.";
-$_LANG['support']['attachmentsRemoved'] = "Đã xóa do vé không hoạt động";
+$_LANG['support']['attachmentsRemoved'] = "Đã xóa do { vé không hoạt động";
 $_LANG['unpayInvoiceAlert'] = "Bạn có một hóa đơn chưa thanh toán. Hãy thanh toán ngay để tránh bị gián đoạn dịch vụ.";
 $_LANG['overdueInvoiceAlert'] = "Bạn có hóa đơn quá hạn.";
 $_LANG['payInvoice'] = "Thanh toán hóa đơn";
@@ -2617,12 +2618,12 @@ $_LANG['store']['ssl']['shared']['helpMeChoose'] = "Không chắc chắn nên ch
 $_LANG['store']['ssl']['shared']['ev']['visualVerification'] = "Nhận dạng hình ảnh nổi bật";
 $_LANG['store']['ssl']['shared']['ev']['visualVerificationDescription'] = "Tăng sự tin cậy và tự tin vào trang web của bạn với xác minh danh tính đầy đủ và các tính năng hình ảnh nổi bật.";
 $_LANG['store']['ssl']['shared']['ev']['warranty'] = "$1,5 triệu Bảo hành";
-$_LANG['store']['ssl']['shared']['ev']['warrantyDescription'] = " Chứng chỉ EV đi kèm với bảo hành 1,5 triệu USD bao gồm các vi phạm dữ liệu gây ra do lỗi chứng chỉ.";
+$_LANG['store']['ssl']['shared']['ev']['warrantyDescription'] = " Chứng chỉ EV đi kèm với bảo hành 1,5 triệu USD bao gồm các vi phạm dữ liệu gây ra do { lỗi chứng chỉ.";
 $_LANG['store']['ssl']['shared']['ev']['issuance'] = "Được phát hành sau 2-3 ngày";
 $_LANG['store']['ssl']['shared']['ov']['ov'] = "Tổ chức đã được xác thực";
 $_LANG['store']['ssl']['shared']['ov']['ovDescription'] = "Với Chứng chỉ SSL OV, danh tính của công ty hoặc tổ chức nắm giữ chứng chỉ được xác thực, cung cấp người dùng cuối tin tưởng hơn.";
 $_LANG['store']['ssl']['shared']['ov']['warranty'] = "$1,25 triệu Bảo hành";
-$_LANG['store']['ssl']['shared']['ov']['warrantyDescription'] = "Chứng chỉ OV đi kèm với bảo hành trị giá 1,25 triệu USD bao gồm các vi phạm dữ liệu gây ra do lỗi chứng chỉ.";
+$_LANG['store']['ssl']['shared']['ov']['warrantyDescription'] = "Chứng chỉ OV đi kèm với bảo hành trị giá 1,25 triệu USD bao gồm các vi phạm dữ liệu gây ra do { lỗi chứng chỉ.";
 $_LANG['store']['ssl']['shared']['ov']['issuance'] = "Được phát hành sau 1-2 ngày";
 $_LANG['store']['ssl']['shared']['delivery'] = "Được giao trong vài phút để bảo vệ tức thì";
 $_LANG['store']['ssl']['shared']['deliveryDescription'] = "Cách nhanh nhất và hợp lý nhất để kích hoạt bảo vệ SSL cho trang web của bạn, việc cấp phát diễn ra nhanh chóng và thường hoàn toàn tự động.";
@@ -2639,9 +2640,9 @@ $_LANG['store']['ssl']['shared']['browserCompatability'] = "99,9% Khả năng t�
 $_LANG['store']['ssl']['shared']['seoRank'] = "Tăng thứ hạng SEO";
 $_LANG['store']['ssl']['shared']['issuance'] = "Phát hành ngay lập tức";
 $_LANG['store']['ssl']['shared']['trusted'] = "Chứng chỉ SSL của chúng tôi đến từ một số thương hiệu đáng tin cậy nhất trong lĩnh vực Bảo mật Trực tuyến.";
-$_LANG['store']['ssl']['shared']['dvSsl'] = "SSL tiêu chuẩn (DV)";
-$_LANG['store']['ssl']['shared']['ovSsl'] = "Xác thực tổ chức (OV)";
-$_LANG['store']['ssl']['shared']['evSsl'] = "Xác thực mở rộng (EV)";
+$_LANG['store']['ssl']['shared']['dvSsl'] = "SSL tiêu chuẩn(DV)";
+$_LANG['store']['ssl']['shared']['ovSsl'] = "Xác thực tổ chức(OV)";
+$_LANG['store']['ssl']['shared']['evSsl'] = "Xác thực mở rộng(EV)";
 $_LANG['store']['ssl']['shared']['wildcardSsl'] = "Ký tự đại diện";
 $_LANG['store']['ssl']['shared']['switch'] = "Chuyển sang chúng tôi";
 $_LANG['store']['ssl']['competitiveUpgrades']['switch'] = "Chuyển sang DigiCert SSL";
@@ -2652,7 +2653,7 @@ $_LANG['store']['ssl']['competitiveUpgrades']['exampleScenario'] = "Kịch bản
 $_LANG['store']['ssl']['competitiveUpgrades']['example']['line1'] = "Chứng chỉ 2 năm hiện tại của bạn còn 11 tháng để chạy.";
 $_LANG['store']['ssl']['competitiveUpgrades']['example']['line2'] = "Bạn thực hiện chuyển đổi và chứng chỉ mới của bạn sẽ có hiệu lực trong <strong>1 năm VÀ 11 tháng< /mạnh>.";
 $_LANG['store']['ssl']['competitiveUpgrades']['example']['line3'] = "Phí cho chứng chỉ mới sẽ <strong>CHỈ</strong> là 1 năm." ;
-$_LANG['store']['ssl']['competitiveUpgrades']['eligibilityCheck'] = "Ưu đãi nâng cấp đặc biệt này áp dụng cho Chứng chỉ SSL do một trong những nhà cung cấp SSL đối thủ được hỗ trợ* cấp. Nhập tên miền của bạn bên dưới để xác nhận tính đủ điều kiện của bạn và xem bạn có thể tiết kiệm được bao nhiêu.";
+$_LANG['store']['ssl']['competitiveUpgrades']['eligibilityCheck'] = "Ưu đãi nâng cấp đặc biệt này áp dụng cho Chứng chỉ SSL do { một trong những nhà cung cấp SSL đối thủ được hỗ trợ* cấp. Nhập tên miền của bạn bên dưới để xác nhận tính đủ điều kiện của bạn và xem bạn có thể tiết kiệm được bao nhiêu.";
 $_LANG['store']['ssl']['competitiveUpgrades']['checkFailed'] = "Không thể kết nối với API xác thực. Vui lòng thử lại sau hoặc liên hệ với bộ phận hỗ trợ.";
 $_LANG['store']['ssl']['competitiveUpgrades']['eligible'] = "Xin chúc mừng! Tên miền của bạn đủ điều kiện nhận Ưu đãi nâng cấp cạnh tranh DigiCert.";
 $_LANG['store']['ssl']['competitiveUpgrades']['expirationDate'] = "Ngày hết hạn hiện tại";
@@ -2685,13 +2686,13 @@ $_LANG['store']['ssl']['landingPage']['title'] = "Chứng chỉ SSL";
 $_LANG['store']['ssl']['landingPage']['tagline1'] = "Bảo mật trang web của bạn và tạo thêm niềm tin cũng như sự tự tin cho khách truy cập.";
 $_LANG['store']['ssl']['landingPage']['tagline2'] = "Với nhiều thương hiệu khác nhau, chúng tôi có chứng chỉ phù hợp cho mọi nhu cầu bảo mật trang web của bạn";
 $_LANG['store']['ssl']['landingPage']['chooseLevel'] = "Chọn cấp độ xác thực của bạn";
-$_LANG['store']['ssl']['landingPage']['dv'] = "Xác thực tên miền (DV)";
+$_LANG['store']['ssl']['landingPage']['dv'] = "Xác thực tên miền(DV)";
 $_LANG['store']['ssl']['landingPage']['dvSubtitle'] = "Bảo mật cơ bản";
 $_LANG['store']['ssl']['landingPage']['dvInformation'] = "Chỉ xác thực tên miền. Được cấp trong vài phút. Lý tưởng cho blog, mạng xã hội và trang web cá nhân.";
-$_LANG['store']['ssl']['landingPage']['ov'] = "Xác thực tổ chức (OV)";
+$_LANG['store']['ssl']['landingPage']['ov'] = "Xác thực tổ chức(OV)";
 $_LANG['store']['ssl']['landingPage']['ovSubtitle'] = "SSL cấp doanh nghiệp mạnh";
 $_LANG['store']['ssl']['landingPage']['ovInformation'] = "Xác minh danh tính cơ bản. Lý tưởng cho các trang web doanh nghiệp nhỏ và các trang chấp nhận thông tin nhạy cảm.";
-$_LANG['store']['ssl']['landingPage']['ev'] = "Xác thực mở rộng (EV)";
+$_LANG['store']['ssl']['landingPage']['ev'] = "Xác thực mở rộng(EV)";
 $_LANG['store']['ssl']['landingPage']['evSubtitle'] = "Bảo vệ và tin cậy tối đa";
 $_LANG['store']['ssl']['landingPage']['evInformation'] = "Xác minh danh tính đầy đủ. Lý tưởng cho các trang web Kinh doanh & Thương mại điện tử muốn mang lại sự tin cậy tối đa cho khách truy cập.";
 $_LANG['store']['ssl']['landingPage']['buy'] = "Mua";
@@ -2702,6 +2703,7 @@ $_LANG['store']['ssl']['landingPage']['encrypts'] = "Mã hóa thông tin liên l
 $_LANG['store']['ssl']['landingPage']['padlock'] = "Đặt ổ khóa bên cạnh địa chỉ web của bạn trong trình duyệt";
 $_LANG['store']['ssl']['landingPage']['authenticates'] = "Xác thực danh tính của tổ chức";
 $_LANG['store']['ssl']['landingPage']['certTypeInfo'] = "<a href=\":dvLink\">SSL tiêu chuẩn (Đã xác thực tên miền)</a> Chứng chỉ là chứng chỉ dễ dàng nhất và loại chứng chỉ SSL phổ biến nhất <a href=\":ovLink\">OV</a> và <a href=\":evLink\">Chứng chỉ EV</a> cũng xác thực danh tính của công ty hoặc tổ chức. giữ chứng chỉ mang lại sự tin cậy cao hơn cho người dùng cuối <br><br>Với các dịch vụ chứng chỉ SSL của chúng tôi*, bạn sẽ không cần thực hiện các bước thủ công để định cấu hình và triển khai chứng chỉ mới hàng năm. Chúng tôi tự động tạo yêu cầu gia hạn khi bạn sử dụng. chứng chỉ sắp hết hiệu lực. Sau khi thanh toán, chúng tôi sẽ tự động định cấu hình, xác thực và cung cấp chứng chỉ mới cho bạn.<br><br><small>* Miền của bạn phải được lưu trữ thông qua cùng một nhà cung cấp dịch vụ lưu trữ đã bán SSL. chứng chỉ và máy chủ phải sử dụng cPanel, Plesk hoặc DirectAdmin.</small>";
+
 $_LANG['store']['ssl']['landingPage']['benefits']['title'] = "Cải thiện thứ hạng của bạn trên công cụ tìm kiếm";
 $_LANG['store']['ssl']['landingPage']['benefits']['subtitle'] = "Thiết lập niềm tin và bảo mật trực tuyến cho khách truy cập trang web và doanh nghiệp của bạn.";
 $_LANG['store']['ssl']['landingPage']['benefits']['higherResults'] = "Google muốn làm cho trang web trở nên an toàn hơn và một phần lớn trong việc đó liên quan đến việc đảm bảo rằng các trang web mà mọi người truy cập thông qua Google đều được bảo mật. Đó là lý do tại sao các trang web sử dụng SSL đã được chứng minh là được hưởng lợi từ thứ hạng cao hơn trong kết quả tìm kiếm.";
@@ -2734,7 +2736,7 @@ $_LANG['store']['ssl']['landingPage']['help']['ov']['verify'] = "Xác thực nâ
 $_LANG['store']['ssl']['landingPage']['help']['ov']['issued'] = "Được phát hành trong vòng một ngày";
 $_LANG['store']['ssl']['landingPage']['help']['ov']['compliance'] = "Duy trì sự tuân thủ của trình duyệt";
 $_LANG['store']['ssl']['landingPage']['help']['ov']['for'] = "Lý tưởng cho các trang web nhạy cảm hơn như trang đăng nhập";
-$_LANG['store' thích hợp'] = "Hãy nghĩ về OV giống như việc lấy được bằng lái xe—có nhiều vòng để vượt qua hơn là một thẻ thư viện nhưng được tin cậy hơn như một hình thức nhận dạng.";
+$_LANG['store']['ssl']['landingPage']['help']['ov']['type'] = "Hãy nghĩ về OV như là lấy bằng lái xe—có nhiều thủ tục hơn so với thẻ thư viện nhưng đáng tin cậy hơn như một hình thức nhận dạng.";
 $_LANG['store']['ssl']['landingPage']['help']['ov']['browse'] = "Duyệt qua chứng chỉ xác thực tổ chức";
 $_LANG['store']['ssl']['landingPage']['help']['ev']['title'] = "Xác thực mở rộng (EV)";
 $_LANG['store']['ssl']['landingPage']['help']['ev']['verify'] = "Cách tiếp cận xác thực dựa trên tiêu chuẩn, thể hiện mức xác thực cao nhất cho Chứng chỉ SSL ";
@@ -2913,11 +2915,11 @@ $_LANG['store']['nordvpn']['features']['security']['tagline3'] = "NordVPN bảo 
 $_LANG['store']['nordvpn']['features']['security']['title3'] = "Chính sách không ghi nhật ký";
 $_LANG['store']['nordvpn']['features']['security']['tagline4'] = "Việc bạn làm trực tuyến không liên quan đến ai. Đó là lý do tại sao chúng tôi không theo dõi, thu thập hoặc chia sẻ thông tin của bạn dữ liệu riêng tư. Chúng tôi không thể cung cấp bất kỳ chi tiết nào về bạn cho bên thứ ba, ngay cả khi họ yêu cầu.";
 $_LANG['store']['nordvpn']['features']['security']['title4'] = "Các tính năng bổ sung để tăng cường bảo mật";
-$_LANG['store']['nordvpn']['features']['security']['tagline5'] = "NordVPN tự hào có nhiều tính năng để bảo vệ bạn khỏi các mối đe dọa trên mạng. Ngoài :tagOpenThreat Protection: tagClose, có một :tagOpenKill Switch:tagClose tự động chặn kết nối internet của bạn nếu kết nối VPN của bạn bị rớt, đảm bảo dữ liệu của bạn luôn an toàn: tagOpenDouble VPN:tagClose sẽ hữu ích khi cần có mức độ bảo mật trực tuyến cao do sự kiểm duyệt của chính phủ và. các quy định nghiêm ngặt về internet. Bạn cũng sẽ được bảo vệ khỏi :tagOpenDNS rò rỉ:tagClose.";
+$_LANG['store']['nordvpn']['features']['security']['tagline5'] = "NordVPN tự hào có nhiều tính năng để bảo vệ bạn khỏi các mối đe dọa trên mạng. Ngoài :tagOpenThreat Protection: tagClose, có một :tagOpenKill Switch:tagClose tự động chặn kết nối internet của bạn nếu kết nối VPN của bạn bị rớt, đảm bảo dữ liệu của bạn luôn an toàn: tagOpenDouble VPN:tagClose sẽ hữu ích khi cần có mức độ bảo mật trực tuyến cao do { sự kiểm duyệt của chính phủ và. các quy định nghiêm ngặt về internet. Bạn cũng sẽ được bảo vệ khỏi :tagOpenDNS rò rỉ:tagClose.";
 $_LANG['store']['nordvpn']['features']['use']['title1'] = "Các trường hợp sử dụng";
-$_LANG['store']['nordvpn']['features']['use']['tagline1'] = "Ngay cả khi bạn không có gì để giấu, bạn có thể không thích ý tưởng bị theo dõi và theo dõi . Lý do chính khiến người dùng internet chọn dịch vụ VPN là quyền riêng tư trực tuyến và bảo mật chung.:tagBreak:tagOpenDưới đây là những lý do cụ thể TẠI SAO?:tagClose";
+$_LANG['store']['nordvpn']['features']['use']['tagline1'] = "Ngay cả khi bạn không có gì để giấu, bạn có thể không thích ý tưởng bị theo dõi và theo dõi . Lý do { chính khiến người dùng internet chọn dịch vụ VPN là quyền riêng tư trực tuyến và bảo mật chung.:tagBreak:tagOpenDưới đây là những lý do { cụ thể TẠI SAO?:tagClose";
 $_LANG['store']['nordvpn']['features']['use']['title2'] = "Wi-Fi ở nơi công cộng";
-$_LANG['store']['nordvpn']['features']['use']['tagline2'] = "Mạng Wi-Fi công cộng ở Khách sạn, Sân bay và Quán cà phê là mục tiêu hoàn hảo cho tin tặc do thường có biện pháp bảo mật thấp.";
+$_LANG['store']['nordvpn']['features']['use']['tagline2'] = "Mạng Wi-Fi công cộng ở Khách sạn, Sân bay và Quán cà phê là mục tiêu hoàn hảo cho tin tặc do { thường có biện pháp bảo mật thấp.";
 $_LANG['store']['nordvpn']['features']['use']['title3'] = "Bảo vệ duyệt web khỏi bên thứ ba";
 $_LANG['store']['nordvpn']['features']['use']['tagline3'] = "Ngăn chặn các bên thứ ba như Nhà cung cấp dịch vụ Internet nhìn thấy và theo dõi hoạt động trực tuyến hàng ngày của bạn. ";
 $_LANG['store']['nordvpn']['features']['use']['title4'] = "Truy cập các nền tảng mạng xã hội ở mọi nơi";
@@ -2983,14 +2985,14 @@ $_LANG['store']['twosixtymonitoring']['websiteFeatures']['i1b'] = "Nhận thông
 $_LANG['store']['twosixtymonitoring']['websiteFeatures']['i1c'] = "Xác định và phản hồi các vấn đề trước khi khách hàng của bạn bị ảnh hưởng tiêu cực và trước khi bạn mất doanh thu!";
 $_LANG['store']['twosixtymonitoring']['websiteFeatures']['i2a'] = "Giám sát hiệu suất";
 $_LANG['store']['twosixtymonitoring']['websiteFeatures']['i2b'] = "Đảm bảo trang web của bạn hoạt động nhanh hơn và xếp hạng cao hơn trong kết quả của công cụ tìm kiếm!";
-$_LANG['store']['twosixtymonitoring']['websiteFeatures']['i2c'] = "Kiểm tra thời gian tới byte đầu tiên (TTFB), thời gian DNS, thời gian kết nối và tổng thời lượng.";
+$_LANG['store']['twosixtymonitoring']['websiteFeatures']['i2c'] = "Kiểm tra thời gian tới byte đầu tiên(TTFB) { , thời gian DNS, thời gian kết nối và tổng thời lượng.";
 $_LANG['store']['twosixtymonitoring']['websiteFeatures']['i3a'] = "Giám sát địa lý";
 $_LANG['store']['twosixtymonitoring']['websiteFeatures']['i3b'] = "Tìm hiểu về các vấn đề liên quan đến vị trí cụ thể trong trang web của bạn.";
 $_LANG['store']['twosixtymonitoring']['websiteFeatures']['i3c'] = "Đảm bảo khả năng truy cập và hiệu suất từ tối đa 26 địa điểm khác nhau.";
 $_LANG['store']['twosixtymonitoring']['websiteFeatures']['i4a'] = "Giám sát từ khóa";
-$_LANG['store']['twosixtymonitoring']['websiteFeatures']['i4b'] = "Giám sát nguồn trang web đối với các từ và cụm từ cụ thể (ví dụ: “lỗi” hoặc “hết hàng”) và thiết lập cảnh báo cho sự hiện diện hay vắng mặt của họ.";
+$_LANG['store']['twosixtymonitoring']['websiteFeatures']['i4b'] = "Giám sát nguồn trang web đối với các từ và cụm từ cụ thể(ví dụ: “lỗi” hoặc “hết hàng”) và thiết lập cảnh báo cho sự hiện diện hay vắng mặt của họ.";
 $_LANG['store']['twosixtymonitoring']['websiteFeatures']['i5a'] = "Giám sát cổng";
-$_LANG['store']['twosixtymonitoring']['websiteFeatures']['i5b'] = "Kiểm tra khả năng phản hồi của HTTP/S đối với lưu lượng truy cập web, TCP để biết các sự cố kết nối mạng hoặc tắc nghẽn tường lửa và ICMP (ping) để biết tính khả dụng .";
+$_LANG['store']['twosixtymonitoring']['websiteFeatures']['i5b'] = "Kiểm tra khả năng phản hồi của HTTP/S đối với lưu lượng truy cập web, TCP để biết các sự cố kết nối mạng hoặc tắc nghẽn tường lửa và ICMP(ping) để biết tính khả dụng .";
 $_LANG['store']['twosixtymonitoring']['websiteFeatures']['i6a'] = "Giám sát SSL";
 $_LANG['store']['twosixtymonitoring']['websiteFeatures']['i6b'] = "Nhận thông báo về việc hết hạn chứng chỉ SSL/TLS và đảm bảo rằng khách truy cập luôn có thể truy cập trang web của bạn một cách an toàn.";
 $_LANG['store']['twosixtymonitoring']['websiteFeatures']['i7a'] = "Xác định các liên kết bị hỏng";
@@ -3022,7 +3024,7 @@ $_LANG['store']['twosixtymonitoring']['websiteMonitor']['title'] = "Giám sát v
 $_LANG['store']['twosixtymonitoring']['websiteMonitor']['tagline'] = "Giảm sự thất vọng và tăng cường niềm tin của người dùng bằng cách nhanh chóng cảnh báo người dùng về các vấn đề và cung cấp thông tin cập nhật về trạng thái của các sự cố đang diễn ra.";
 $_LANG['store']['twosixtymonitoring']['serverMonitor']['title'] = "Tại sao chọn Giám sát 360?";
 $_LANG['store']['twosixtymonitoring']['serverMonitor']['tagline'] = "Bởi vì không ai có đủ khả năng để ngừng hoạt động!";
-$_LANG['store']['twosixtymonitoring']['serverMonitor']['lostRevenue'] = "Mất doanh thu mỗi năm do ngừng hoạt động:";
+$_LANG['store']['twosixtymonitoring']['serverMonitor']['lostRevenue'] = "Mất doanh thu mỗi năm do { ngừng hoạt động:";
 $_LANG['store']['twosixtymonitoring']['serverMonitor']['uptime'] = "Thời gian hoạt động";
 $_LANG['store']['twosixtymonitoring']['serverMonitor']['perYear'] = "/year";
 $_LANG['store']['twosixtymonitoring']['serverMonitor']['asterisk'] = "* Tính toán dựa trên việc một trang web tạo ra doanh thu 500 nghìn USD mỗi năm, không bao gồm các mùa chiến dịch cao điểm.";
@@ -3038,7 +3040,7 @@ $_LANG['store']['twosixtymonitoring']['comparison']['fullSiteCheck'] = "Kiểm t
 $_LANG['store']['twosixtymonitoring']['comparison']['concurrentCrawls'] = "Thu thập thông tin đồng thời";
 $_LANG['store']['twosixtymonitoring']['comparison']['highPriorityCrawls'] = "Thu thập thông tin có mức độ ưu tiên cao";
 $_LANG['store']['twosixtymonitoring']['comparison']['recurringScheduledCrawls'] = "Thu thập thông tin định kỳ theo lịch trình";
-$_LANG['store']['twosixtymonitoring']['comparison']['crawlDepth'] = "Độ sâu thu thập dữ liệu (URL)";
+$_LANG['store']['twosixtymonitoring']['comparison']['crawlDepth'] = "Độ sâu thu thập dữ liệu(URL)";
 $_LANG['store']['twosixtymonitoring']['comparison']['startingFrom'] = "Bắt đầu từ";
 $_LANG['store']['twosixtymonitoring']['comparison']['tagLine'] = "";
 $_LANG['store']['twosixtymonitoring']['comparison']['tagLite'] = "Miễn phí 1 trang web";
@@ -3055,9 +3057,9 @@ $_LANG['store']['twosixtymonitoring']['faq']['title'] = "FAQ";
 $_LANG['store']['twosixtymonitoring']['faq']['q1'] = "Giám sát trang web là gì?";
 $_LANG['store']['thirdsixtymonitoring']['faq']['a1'] = "Giám sát trang web kiểm tra các trang web về thời gian hoạt động, hiệu suất và chức năng tổng thể. Nó xác minh rằng trang web của bạn đang hoạt động và có thể truy cập được khách truy cập Kết quả giám sát trang web sẽ cho phép bạn giải quyết mọi vấn đề với trang web của mình trước khi chúng ảnh hưởng đến doanh nghiệp của bạn.";
 $_LANG['store']['twosixtymonitoring']['faq']['q2'] = "Giám sát trang web hoạt động như thế nào?";
-$_LANG['store']['thirdsixtymonitoring']['faq']['a2'] = "Giám sát trang web thực hiện các thử nghiệm trên trang web của bạn theo định kỳ (1, 5 hoặc 10 phút một lần, tùy thuộc vào gói của bạn). Các thử nghiệm này phát hiện sự cố với trang web của bạn. Khi phát hiện sự cố, Giám sát 360 sẽ gửi cảnh báo và ghi lại sự cố để phân tích sau.";
+$_LANG['store']['thirdsixtymonitoring']['faq']['a2'] = "Giám sát trang web thực hiện các thử nghiệm trên trang web của bạn theo định kỳ(1, 5 hoặc 10 phút một lần, tùy thuộc vào gói của bạn). Các thử nghiệm này phát hiện sự cố với trang web của bạn. Khi phát hiện sự cố, Giám sát 360 sẽ gửi cảnh báo và ghi lại sự cố để phân tích sau.";
 $_LANG['store']['twosixtymonitoring']['faq']['q3'] = "Giám sát hiệu suất hoạt động như thế nào?";
-$_LANG['store']['twosixtymonitoring']['faq']['a3'] = "Các công cụ và quy trình giám sát hiệu suất kiểm tra xem hệ thống đang chạy tốt như thế nào bằng cách giám sát các tài nguyên hệ thống như việc sử dụng CPU, mức tiêu thụ bộ nhớ, mức sử dụng ổ đĩa, hiệu suất đầu vào/đầu ra (I/O) và thời gian hoạt động của mạng Giám sát 360 theo dõi tất cả các số liệu này để đảm bảo mọi thứ đều hoạt động trơn tru.";
+$_LANG['store']['twosixtymonitoring']['faq']['a3'] = "Các công cụ và quy trình giám sát hiệu suất kiểm tra xem hệ thống đang chạy tốt như thế nào bằng cách giám sát các tài nguyên hệ thống như việc sử dụng CPU, mức tiêu thụ bộ nhớ, mức sử dụng ổ đĩa, hiệu suất đầu vào/đầu ra(I/O) và thời gian hoạt động của mạng Giám sát 360 theo dõi tất cả các số liệu này để đảm bảo mọi thứ đều hoạt động trơn tru.";
 $_LANG['store']['thirdsixtymonitoring']['faq']['q4'] = "Tại sao Giám sát Hiệu suất lại quan trọng?";
 $_LANG['store']['thirdsixtymonitoring']['faq']['a4'] = "Giám sát hiệu suất rất quan trọng trong việc xác định các vấn đề về hiệu suất trước khi chúng gây tổn hại cho doanh nghiệp của bạn. Các phát hiện về tài nguyên hệ thống của nó cũng cho phép bạn chủ động lập kế hoạch cho tương lai của mình nhu cầu.";
 $_LANG['store']['twosixtymonitoring']['faq']['q5'] = "Giám sát SSL hoạt động như thế nào?";
@@ -3663,7 +3665,7 @@ $_LANG['store']['addon']['wptk']['faqA3'] = "Cập nhật thông minh tự độ
 $_LANG['store']['addon']['wptk']['faqQ4'] = "Bộ công cụ WP có giá bao nhiêu?";
 $_LANG['store']['addon']['wptk']['faqA4'] = "WP Toolkit Deluxe có sẵn dưới dạng tiện ích bổ sung cho các gói lưu trữ hiện hành. Để xem giá, vui lòng <a href=\" :webRoot/login.php\">đăng nhập</a> để xem giá cho các miền hiện tại của bạn hoặc <a href=\":webRoot/register.php\">đăng ký</a> với tư cách là khách hàng mới." ;
 $_LANG['store']['addon']['wptk']['faqQ5'] = "Làm cách nào để truy cập Bộ công cụ WP?";
-$_LANG['store']['addon']['wptk']['faqA5'] = "Nếu bạn có quyền truy cập, bạn sẽ tìm thấy biểu tượng và liên kết WP Toolkit trong bảng điều khiển cPanel của mình. Đối với những người có WP Toolkit Deluxe, bạn cũng sẽ tìm thấy liên kết đăng nhập từ chế độ xem dịch vụ lưu trữ trong <a href=\":webRoot/clientarea.php\">khu vực khách hàng</a>." của chúng tôi;
+$_LANG['store']['addon']['wptk']['faqA5'] = "Nếu bạn có quyền truy cập, bạn sẽ tìm thấy biểu tượng và liên kết WP Toolkit trong bảng điều khiển cPanel của mình. Đối với những người có WP Toolkit Deluxe, bạn cũng sẽ tìm thấy liên kết đăng nhập từ chế độ xem dịch vụ lưu trữ trong <a href=\":webRoot/clientarea.php\">khu vực khách hàng</a>. của chúng tôi";
 $_LANG['store']['addon']['wptk']['faqQ6'] = "Cập nhật thông minh có giá bao nhiêu?";
 $_LANG['store']['addon']['wptk']['faqA6'] = "Bản cập nhật thông minh có sẵn dưới dạng tiện ích bổ sung cho các gói lưu trữ hiện hành. Để xem giá, vui lòng <a href=\": webRoot/login.php\">đăng nhập</a> để xem giá cho các miền hiện tại của bạn hoặc <a href=\":webRoot/register.php\">đăng ký</a> làm khách hàng mới.";
 $_LANG['store']['addon']['wptk']['faqQ7'] = "Làm cách nào để truy cập WP Toolkit?";
@@ -3803,48 +3805,42 @@ $_LANG['store']['siteBuilder']['featuresStore'] = "Cửa hàng trực tuyến";
 $_LANG['store']['siteBuilder']['features']['essentials']['tagline'] = "Trình tạo trang web của chúng tôi bao gồm bộ tính năng đầy đủ.";
 $_LANG['store']['siteBuilder']['features']['blog']['tagline'] = "Chia sẻ câu chuyện của bạn tạo nên sự khác biệt. Kết nối với khách truy cập thông qua mạng xã hội và blog của bạn.";
 $_LANG['store']['siteBuilder']['features']['store']['tagline'] = "Bán hàng trực tuyến có thể thúc đẩy hoạt động kinh doanh của bạn. Xây dựng trang web của bạn như một cửa hàng, cửa hiệu nhỏ hoặc cửa hàng." ;
-$_LANG['store']['siteBuilder']['features']['essentials']['1'] = "Trình chỉnh sửa kéo và thả";
-$_LANG['store']['siteBuilder']['features']['essentials']['2'] = "Tính năng xây dựng";
-$_LANG['store']['siteBuilder']['features']['essentials']['3'] = "Các khối xây dựng được thiết kế sẵn";
-$_LANG['store']['siteBuilder']['features']['essentials']['4'] = "Tích hợp sẵn thân thiện với thiết bị di động";
-$_LANG['store']['siteBuilder']['features']['essentials']['5'] = "Tích hợp kho ảnh";
-$_LANG['store']['siteBuilder']['features']['essentials']['6'] = "Tự động lưu & sao lưu";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['1'] = "Trình chỉnh sửa kéo và thả cho phép khách hàng thêm và sắp xếp các tính năng của trang web trực tiếp trên trang với tính năng đánh dấu dự đoán các khu vực để bố trí.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['2'] = "Bạn có thể sử dụng các phần tử bố cục có sẵn như văn bản, nút, ảnh hoặc biểu tượng để xây dựng bất kỳ tùy chỉnh nào bố cục trang web trông chuyên nghiệp.";
-$_LANG['store']['siteBuilder' thích hợp xây dựng trang web chuyên nghiệp mà không cần bất kỳ kỹ năng kỹ thuật nào.";
-$_LANG['store']['siteBuilder' thích hợp và máy tính để bàn.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['5'] = "Trao quyền cho trang web của bạn với tuyển chọn hơn 200.000 ảnh cao cấp chuyên nghiệp ở độ phân giải cao. Trình tạo trang web của chúng tôi cũng bao gồm Video nhúng và Tối ưu hóa hình ảnh.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['6'] = "Bạn có thể chắc chắn không mất bất kỳ công việc nào khi lưu theo thời gian thực. Trình chỉnh sửa tự động lưu mọi thứ trong khi bạn làm việc.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['1'] = "Trình chỉnh sửa Kéo & Thả cho phép khách hàng thêm và sắp xếp các tính năng trang web trực tiếp trên trang với việc làm nổi bật dự đoán các khu vực để đặt.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['2'] = "Bạn có thể sử dụng các thành phần bố cục sẵn có như văn bản, nút, ảnh hoặc biểu tượng để xây dựng bất kỳ bố cục trang web chuyên nghiệp tùy chỉnh nào.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['3'] = "Bạn không cần phải lãng phí thời gian để điều chỉnh bố cục nội dung. Bộ sưu tập hơn 350 khối nội dung giúp bạn xây dựng các trang web chuyên nghiệp mà không cần kỹ năng kỹ thuật.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['4'] = "Các trang web sẽ trông tuyệt vời trên mọi thiết bị. Mẫu 100% tương thích với tất cả các thiết bị, bao gồm điện thoại thông minh, máy tính bảng và máy tính để bàn.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['5'] = "Tăng cường trang web của bạn với bộ sưu tập hơn 200,000 bức ảnh chuyên nghiệp chất lượng cao. Trình tạo trang web của chúng tôi cũng bao gồm Video nhúng và Tối ưu hóa hình ảnh.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['essentials']['6'] = "Bạn có thể yên tâm không bị mất bất kỳ công việc nào với tính năng lưu thời gian thực. Trình chỉnh sửa tự động lưu mọi thứ khi bạn làm việc.";
 $_LANG['store']['siteBuilder']['features']['blog']['1'] = "Trang Blog";
-$_LANG['store']['siteBuilder']['features']['blog']['2'] = "Bài viết nháp";
-$_LANG['store']['siteBuilder']['features']['blog']['3'] = "Trình chỉnh sửa bài đăng";
-$_LANG['store']['siteBuilder']['features']['blog']['4'] = "Chia sẻ trên mạng xã hội";
-$_LANG['store']['siteBuilder']['features']['blog']['5'] = "Bình luận và lượt thích trên Facebook";
+$_LANG['store']['siteBuilder']['features']['blog']['2'] = "Bài viết Nháp";
+$_LANG['store']['siteBuilder']['features']['blog']['3'] = "Trình chỉnh sửa Bài viết";
+$_LANG['store']['siteBuilder']['features']['blog']['4'] = "Chia sẻ Xã hội";
+$_LANG['store']['siteBuilder']['features']['blog']['5'] = "Bình luận và Thích trên Facebook";
 $_LANG['store']['siteBuilder']['features']['blog']['6'] = "Kết nối Instagram và Twitter";
-$_LANG['store']['siteBuilder' thích hợp trang web đã xuất bản của bạn.";
-$_LANG['store']['siteBuilder' thích hợp với tin tức cụ thể hoặc chương trình khuyến mãi đặc biệt." ;
-$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['3'] = "Thực hiện thay đổi đối với bài đăng trên blog sau khi nó đã được xuất bản bằng công cụ soạn thảo nội dung bài đăng tích hợp và biên tập viên.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['4'] = "Khuyến khích khách truy cập thích và chia sẻ nội dung của bạn bằng cách thêm biểu tượng cho các nền tảng mạng xã hội như Facebook, Twitter , LinkedIn và Pinterest vào trang web của bạn.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['5'] = "Cung cấp cho khách truy cập tùy chọn nhận xét và thích trang Facebook được liên kết của bạn mà không cần rời khỏi trang web của bạn.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['6'] = "Tự động hiển thị ảnh Instagram trên trang web của bạn mỗi khi bạn đăng và cập nhật cho khách truy cập trang web của bạn bằng cách hiển thị một nguồn cấp dữ liệu trực tiếp của tài khoản Twitter của bạn.";
-$_LANG['store']['siteBuilder']['features']['store']['1'] = "Gói linh hoạt";
-$_LANG['store']['siteBuilder']['features']['store']['2'] = "Thanh toán an toàn và toàn cầu";
-$_LANG['store']['siteBuilder']['features']['store']['3'] = "Thanh toán dễ dàng và nhanh chóng";
-$_LANG['store']['siteBuilder']['features']['store']['5'] = "Quản lý và danh sách sản phẩm";
-$_LANG['store']['siteBuilder']['features']['store']['6'] = "Khuyến mãi, giảm giá và phiếu giảm giá";
-$_LANG['store']['siteBuilder']['features']['store']['7'] = "Quản lý hàng tồn kho";
-$_LANG['store']['siteBuilder']['features']['store']['8'] = "Vận chuyển toàn cầu";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['1'] = "Chia sẻ câu chuyện của bạn và kết nối với khách truy cập của bạn bằng cách thêm một blog tùy chỉnh vào trang web của bạn. Cấu hình hiển thị bài viết trên trang web đã xuất bản của bạn.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['2'] = "Tạo bài viết blog của bạn ngay bây giờ để lưu và xuất bản sau để trùng với tin tức cụ thể hoặc một chương trình khuyến mãi đặc biệt.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['3'] = "Thực hiện thay đổi bài viết blog sau khi đã xuất bản bằng công cụ tạo nội dung và trình chỉnh sửa bài viết tích hợp.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['4'] = "Khuyến khích khách truy cập của bạn thích và chia sẻ nội dung của bạn bằng cách thêm các biểu tượng cho các nền tảng truyền thông xã hội như Facebook, Twitter, LinkedIn và Pinterest vào trang web của bạn.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['5'] = "Cho khách truy cập tùy chọn bình luận và thích trang Facebook liên kết của bạn mà không rời khỏi trang web của bạn.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['blog']['6'] = "Tự động hiển thị ảnh Instagram của bạn trên trang web mỗi khi bạn đăng và cập nhật khách truy cập trang web của bạn bằng cách hiển thị nguồn cấp dữ liệu trực tiếp của tài khoản Twitter của bạn.";
+$_LANG['store']['siteBuilder']['features']['store']['1'] = "Kế hoạch Linh hoạt";
+$_LANG['store']['siteBuilder']['features']['store']['2'] = "Thanh toán An toàn và Toàn cầu";
+$_LANG['store']['siteBuilder']['features']['store']['3'] = "Thanh toán Dễ dàng và Nhanh chóng";
+$_LANG['store']['siteBuilder']['features']['store']['5'] = "Danh sách và Quản lý Sản phẩm";
+$_LANG['store']['siteBuilder']['features']['store']['6'] = "Khuyến mãi, Giảm giá và Phiếu giảm giá";
+$_LANG['store']['siteBuilder']['features']['store']['7'] = "Quản lý Hàng tồn kho";
+$_LANG['store']['siteBuilder']['features']['store']['8'] = "Vận chuyển Toàn cầu";
 $_LANG['store']['siteBuilder']['features']['store']['9'] = "Thuế và VAT";
-$_LANG['store']['siteBuilder']['features']['store']['10'] = "Quản lý và theo dõi đơn hàng";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['1'] = "Cho dù bạn là cửa hàng nhỏ, cửa hàng hay cửa hàng trọn gói, các gói có sẵn cho 10, 50 và 500 sản phẩm.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['2'] = "Kết nối với Paypal, Square, Stripe và hơn 50 nhà cung cấp thanh toán thẻ tín dụng đáng tin cậy để chấp nhận thẻ tín dụng ngay lập tức. ";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['3'] = "Cung cấp cho khách hàng thanh toán nhanh hơn và dễ dàng hơn với đăng ký tùy chọn trong quá trình thanh toán. Cung cấp thanh toán một trang an toàn bao gồm các nhận xét về đơn đặt hàng của khách hàng.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['5'] = "Chọn từ nhiều bố cục trang sản phẩm và tùy chỉnh mô tả cũng như thiết kế theo ý muốn. Giúp khách hàng dễ dàng hơn tìm sản phẩm bằng cách sắp xếp chúng thành các danh mục.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['6'] = "Tạo phiếu giảm giá hoặc mã khuyến mại để tăng doanh số bán hàng. Tăng chuyển đổi của bạn bằng cách hiển thị giá thông thường bên cạnh giá chiết khấu. ";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['7'] = "Theo dõi hàng tồn kho giúp biết liệu đã đến lúc phải bổ sung kho sản phẩm hay chưa và những biến thể sản phẩm nào phổ biến nhất .";
-$_LANG['store']['siteBuilder' thích hợp chẳng hạn như USPS, FedEx, UPS, Australia Post, Canada Post, v.v.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['9'] = "Áp dụng tính toán thuế cho bất kỳ quốc gia nào hoặc xác định các khu vực cụ thể. Kiểm soát hoàn toàn việc tính thuế; thiết lập thuế theo địa điểm, thêm thuế cho mỗi nhóm sản phẩm hoặc thiết lập sản phẩm miễn thuế.";
-$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['10'] = "Nhận ngay thông báo đơn hàng qua email. Quản lý và xem tổng quan về tất cả các đơn hàng, tìm kiếm đơn hàng, lọc theo danh mục và cập nhật đơn hàng, thông tin khách hàng và bổ sung mã số vận chuyển.";
+$_LANG['store']['siteBuilder']['features']['store']['10'] = "Quản lý và Theo dõi Đơn hàng";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['1'] = "Cho dù bạn là một cửa hàng nhỏ, cửa hàng hoặc cửa hàng lớn, các gói có sẵn cho 10, 50 và 500 sản phẩm.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['2'] = "Kết nối với Paypal, Square, Stripe và hơn 50 nhà cung cấp thanh toán thẻ tín dụng đáng tin cậy để chấp nhận thẻ tín dụng ngay lập tức.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['3'] = "Cung cấp cho khách hàng một quy trình thanh toán nhanh hơn và dễ dàng hơn với tùy chọn đăng ký khi thanh toán. Cung cấp một trang thanh toán an toàn một trang bao gồm nhận xét của khách hàng về đơn hàng.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['5'] = "Chọn từ nhiều bố cục trang sản phẩm và tùy chỉnh mô tả và thiết kế theo ý muốn. Làm cho khách hàng dễ dàng tìm thấy sản phẩm hơn bằng cách tổ chức chúng thành các danh mục.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['6'] = "Tạo phiếu giảm giá hoặc mã khuyến mại để tăng doanh số. Tăng tỷ lệ chuyển đổi của bạn bằng cách hiển thị giá thông thường bên cạnh giá giảm.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['7'] = "Theo dõi hàng tồn kho giúp biết khi nào cần bổ sung hàng và các biến thể sản phẩm nào là phổ biến nhất.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['8'] = "Bạn có thể cung cấp cho khách hàng của mình giá vận chuyển theo thời gian thực tại thời điểm thanh toán bằng cách kết nối cửa hàng trực tuyến của bạn với một công ty vận chuyển như USPS, FedEx, UPS, Australia Post, Canada Post, v.v.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['9'] = "Áp dụng tính toán thuế cho bất kỳ quốc gia nào hoặc xác định các khu vực cụ thể. Hoàn toàn kiểm soát việc tính thuế; thiết lập thuế theo địa điểm, thêm thuế theo nhóm sản phẩm hoặc thiết lập sản phẩm miễn thuế.";
+$_LANG['store']['siteBuilder']['featuresdescriptions']['store']['10'] = "Nhận thông báo đơn hàng ngay lập tức qua email. Quản lý và xem tổng quan về tất cả các đơn hàng, tìm kiếm đơn hàng, lọc chúng theo danh mục và cập nhật đơn hàng, thông tin khách hàng và thêm số theo dõi cho việc giao hàng.";
 $_LANG['store']['siteBuilder']['viewPricing'] = "Xem giá và các gói";
 $_LANG['store']['siteBuilder']['templatesTitle'] = "Mẫu tăng tốc kinh doanh";
 $_LANG['store']['siteBuilder']['templatesOutro'] = "Tải Site Builder để xem tất cả hơn 150 mẫu cung cấp cho bạn cách bắt đầu nhanh chóng và dễ dàng.";
@@ -4020,7 +4016,7 @@ $_LANG['store']['ssl']['landingPage']['multiYear']['p5'] = "Chứng chỉ SSL ph
 $_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['title'] = "Lợi ích";
 $_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['b1'] = "Tận hưởng mức giảm giá ngày càng tăng cho mỗi năm bảo hiểm mà bạn mua.";
 $_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['b2'] = "Loại bỏ rắc rối khi thanh toán hàng năm.";
-$_LANG['store']['ssl']['landingPage' thích hợp .";
+$_LANG['store']['ssl']['landingPage']['multiYear']['benefits']['b3'] = "Xác minh hàng năm. Việc xác minh danh tính hàng năm trong các chứng chỉ có thời hạn ngắn hơn giúp ngăn chặn gian lận và giả mạo tiềm ẩn.";
 $_LANG['navMarketConnectService']['xovinow'] = "XOVI NGAY";
 $_LANG['marketConnect']['xoviNow']['manage'] = "Đăng nhập vào XOVI NGAY";
 $_LANG['store']['xoviNow']['title'] = "XOVI NGAY";
@@ -4071,7 +4067,7 @@ $_LANG['store']['xoviNow']['features']['benchmarking']['bullet2'] = "Xác địn
 $_LANG['store']['xoviNow']['features']['benchmarking']['bullet3'] = "So sánh thứ hạng từ khóa của hai hoặc nhiều tên miền";
 $_LANG['store']['xoviNow']['features']['benchmarking']['bullet4'] = "Theo dõi và so sánh thứ hạng của đối thủ cạnh tranh đối với các từ khóa quan trọng";
 $_LANG['store']['xoviNow']['features']['benchmarking']['bullet5'] = "Theo dõi và so sánh điểm số khả năng hiển thị";
-$_LANG['store']['xoviNow']['audience']['freelancersTitle'] = "Người làm nghề tự do";
+$_LANG['store']['xoviNow']['audience']['freelancersTitle'] = "Người làm nghề tự do { ";
 $_LANG['store']['xoviNow']['audience']['freelancersDesc'] = "XOVI NOW được thiết kế để cung cấp giá trị ngay lập tức cho trang web cá nhân của bạn hoặc trang web của khách hàng của bạn, từ kiểm tra trang web ban đầu thông qua các đề xuất cho đến cải thiện kết quả công cụ tìm kiếm của bạn.";
 $_LANG['store']['xoviNow']['audience']['smbizTitle'] = "Doanh nghiệp vừa và nhỏ";
 $_LANG['store']['xoviNow']['audience']['smbizDesc'] = "Bạn không cần phải là chuyên gia SEO để cải thiện thứ hạng Google cho doanh nghiệp của mình. Chúng tôi cung cấp cho bạn tất cả các công cụ để nâng cao khả năng hiển thị trang web của bạn một cách nhanh chóng và dễ dàng.";
@@ -4093,7 +4089,7 @@ $_LANG['store']['xoviNow']['faqTitle'] = "Các câu hỏi thường gặp";
 $_LANG['store']['xoviNow']['faq1'] = "SEO là gì?";
 $_LANG['store']['xoviNow']['faq1ans'] = "<p>SEO là từ viết tắt của Search Engine Optimization. Đây là một chiến lược tiếp thị trực tuyến thiết yếu nhằm hướng khách hàng tiềm năng đến trang web của bạn. Mục tiêu của nó là để tối ưu hóa một trang web nhằm giành được vị trí hàng đầu cho các từ khóa đã chọn trên các công cụ tìm kiếm. Mục tiêu này đạt được bằng cách sử dụng các biện pháp một cách chiến lược để cải thiện thiết lập kỹ thuật và nội dung của trang web cũng như thu thập các liên kết ngược từ các tên miền khác.</p><p>SEO được chia thành ba. danh mục chung:</p><ol><li>Từ khóa và thứ hạng</li><li>SEO trên trang</li><li>SEO ngoài trang</li></ol><p>SEO các chuyên gia áp dụng các biện pháp đáp ứng các yếu tố xếp hạng của công cụ tìm kiếm cho từng danh mục. Công cụ tìm kiếm sử dụng các yếu tố xếp hạng để xác định vị trí mà nó liệt kê một trang web trong kết quả tìm kiếm.</p>";
 $_LANG['store']['xoviNow']['faq2'] = "Tại sao tôi cần SEO?";
-$_LANG['store']['xoviNow']['faq2ans'] = "<p>Mỗi ngày, hàng triệu người sử dụng công cụ tìm kiếm để tìm thông tin hoặc dịch vụ từ mọi khía cạnh của cuộc sống: Công thức nấu ăn, hướng dẫn, sản phẩm, chuyến bay, điều hướng, vé, giải trí, v.v. Hầu hết mọi người điều hướng web bằng công cụ tìm kiếm để tìm câu trả lời cho câu hỏi và giải pháp cho những thách thức của họ.</p><p>Một nghiên cứu cho thấy rằng 68% lưu lượng truy cập vào web đến từ các công cụ tìm kiếm. 53% lưu lượng truy cập này có nguồn gốc từ tìm kiếm không phải trả tiền—kết quả tìm kiếm không phải là quảng cáo (tìm kiếm có trả tiền) và có thể được cải thiện thông qua SEO.</p><img src=\":image1\"><p>Mặt khác. từ, tìm kiếm không phải trả tiền (SEO) và tìm kiếm có trả tiền (SEA, quảng cáo trong kết quả tìm kiếm) chiếm phần lớn lưu lượng truy cập trên web.</p><p>Ngay cả khi chúng ta ngoại tuyến cũng bị ảnh hưởng đáng kể bởi các công cụ tìm kiếm: Chúng tôi sử dụng Google và Apple Maps cũng như các kết quả tìm kiếm địa phương để tìm các địa điểm và dịch vụ lân cận như tiệm làm tóc, siêu thị, nhà hàng và bác sĩ. Chúng tôi chọn điểm đến dựa trên các đánh giá trực tuyến và chúng tôi hướng dẫn các dịch vụ dựa trên công cụ tìm kiếm hướng dẫn chúng tôi đến đó, dù là bằng ô tô. , phương tiện công cộng hoặc đi bộ.</p><p>Bây giờ, hãy tưởng tượng nếu doanh nghiệp, sản phẩm và dịch vụ của bạn không được liệt kê trong kết quả tìm kiếm. Hãy tưởng tượng mọi người không thể tìm thấy bạn trực tuyến để mua sản phẩm hoặc tìm đường đến doanh nghiệp truyền thống của bạn. Thay vào đó, rất có thể họ sẽ chọn đối thủ cạnh tranh của bạn.</p>";
+$_LANG['store']['xoviNow']['faq2ans'] = "<p>Mỗi ngày, hàng triệu người sử dụng công cụ tìm kiếm để tìm thông tin hoặc dịch vụ từ mọi khía cạnh của cuộc sống: Công thức nấu ăn, hướng dẫn, sản phẩm, chuyến bay, điều hướng, vé, giải trí, v.v. Hầu hết mọi người điều hướng web bằng công cụ tìm kiếm để tìm câu trả lời cho câu hỏi và giải pháp cho những thách thức của họ.</p><p>Một nghiên cứu cho thấy rằng 68% lưu lượng truy cập vào web đến từ các công cụ tìm kiếm. 53% lưu lượng truy cập này có nguồn gốc từ tìm kiếm không phải trả tiền—kết quả tìm kiếm không phải là quảng cáo(tìm kiếm có trả tiền) và có thể được cải thiện thông qua SEO.</p><img src=\":image1\"><p>Mặt khác. từ, tìm kiếm không phải trả tiền (SEO) và tìm kiếm có trả tiền (SEA, quảng cáo trong kết quả tìm kiếm) chiếm phần lớn lưu lượng truy cập trên web.</p><p>Ngay cả khi chúng ta ngoại tuyến cũng bị ảnh hưởng đáng kể bởi các công cụ tìm kiếm: Chúng tôi sử dụng Google và Apple Maps cũng như các kết quả tìm kiếm địa phương để tìm các địa điểm và dịch vụ lân cận như tiệm làm tóc, siêu thị, nhà hàng và bác sĩ. Chúng tôi chọn điểm đến dựa trên các đánh giá trực tuyến và chúng tôi hướng dẫn các dịch vụ dựa trên công cụ tìm kiếm hướng dẫn chúng tôi đến đó, dù là bằng ô tô. , phương tiện công cộng hoặc đi bộ.</p><p>Bây giờ, hãy tưởng tượng nếu doanh nghiệp, sản phẩm và dịch vụ của bạn không được liệt kê trong kết quả tìm kiếm. Hãy tưởng tượng mọi người không thể tìm thấy bạn trực tuyến để mua sản phẩm hoặc tìm đường đến doanh nghiệp truyền thống của bạn. Thay vào đó, rất có thể họ sẽ chọn đối thủ cạnh tranh của bạn.</p>";
 $_LANG['store']['xoviNow']['faq3'] = "SEO có thể giúp gì cho tôi?";
 $_LANG['store']['xoviNow']['faq3ans'] = "<p>Với sự trợ giúp của SEO, người dùng có thể tìm thấy doanh nghiệp, sản phẩm và dịch vụ của bạn trực tuyến—và mua chúng. Như đã đề cập, điều đó có nghĩa là mọi người có thể tìm thấy bạn trực tuyến và ngoại tuyến cũng dễ dàng hơn nhiều.</p><p>SEO tối đa hóa cơ hội được liệt kê ở các vị trí hàng đầu cho các từ khóa quan trọng đối với doanh nghiệp của bạn, vị trí của bạn càng tốt thì càng có nhiều người tìm đến bạn. trang web—tốt nhất là trên trang đầu tiên (hoặc top 10) của kết quả tìm kiếm.</p><p><strong>Tại sao lại là Trang Một?</strong></p><p>Câu hỏi hay Các nghiên cứu đã chỉ ra rằng 31,7%. số người dùng nhấp vào kết quả tìm kiếm không phải trả tiền đầu tiên (vị trí số một); con số khổng lồ là 75,1% tổng số lần nhấp vào ba kết quả tìm kiếm hàng đầu. Sau đó, số lần nhấp chuột giảm nhanh chóng ở mỗi vị trí tiếp theo.</p><img src. =\":image2\"><p>Hành vi này cho thấy người dùng hiếm khi nhìn vào trang hai hoặc kết quả thấp hơn, chứ chưa nói đến nhấp vào bất kỳ kết quả nào trong số đó.</p><img src=\":image3\"><p >Đó là lý do tại sao các doanh nghiệp cần phải xuất hiện trên trang đầu tiên của kết quả tìm kiếm, ít nhất là đối với các từ khóa có liên quan.</p><p>Tóm lại: Điều quan trọng đối với những người làm nghề tự do và chủ doanh nghiệp là</p><ol><li> Sở hữu một trang web hoặc bất kỳ hình thức hiện diện trực tuyến nào, ngay cả khi họ cung cấp sản phẩm hoặc dịch vụ ngoại tuyến</li><li>Thực hiện SEO để đảm bảo họ xếp hạng trên trang một cho các từ khóa có liên quan</li></ol>";
 $_LANG['store']['xoviNow']['faq4'] = "Tại sao từ khóa lại quan trọng?";
@@ -4109,11 +4105,11 @@ $_LANG['store']['xoviNow']['faq8ans'] = "<p>Để giao nhiệm vụ cho những 
 $_LANG['store']['xoviNow']['faq9'] = "Có những nhiệm vụ tôi đã hoàn thành. Tại sao chúng lại bật lên?";
 $_LANG['store']['xoviNow']['faq9ans'] = "<p>Có hai lý do khiến bạn có thể thấy các nhiệm vụ bạn đã giải quyết hoặc hoàn thành. Như đã đề cập ở trên, các nhiệm vụ là sự kết hợp của SEO cơ bản các biện pháp và vấn đề được phát hiện trong quá trình kiểm tra tự động hàng tuần đối với trang web của bạn.</p><p>Đầu tiên, các nhiệm vụ bao gồm các biện pháp SEO cơ bản đều giống nhau đối với mọi người và không được điều chỉnh cho phù hợp với trang web hoặc doanh nghiệp của bạn. Ví dụ: chúng tôi không biết. cho dù bạn đã tạo tài khoản Google cho doanh nghiệp của mình và thiết lập Search Console hay bạn đã cài đặt plugin SEO. Nếu bạn đã cài đặt thì bạn đã làm rất tốt! Chỉ cần gắn cờ các tác vụ đó là Hoàn thành.</p><p>Lý do thứ hai là Cố vấn. được cập nhật tự động dựa trên kết quả Kiểm tra trang web tự động hàng tuần Nói cách khác, nếu Kiểm tra trang web xác định bất kỳ vấn đề nào liên quan đến nhiệm vụ bạn đã hoàn thành trước đây, nó sẽ tự động được cập nhật và bật lên trong phần Mở.</p> ";
 $_LANG['store']['xoviNow']['faq10'] = "Khả năng hiển thị dự án là gì?";
-$_LANG['store']['xoviNow']['faq10ans'] = "<p>Có thể bạn đã ngừng suy nghĩ, “Đợi đã, nhưng tôi không quan tâm đến khả năng hiển thị của mình đối với những từ khóa không liên quan gì đến việc kinh doanh." Và bạn đã đúng. Mặc dù Khả năng hiển thị là một điểm tuyệt vời để biết được hiệu suất tổng thể của bạn và so sánh các trang web nói chung, nhưng nó không được điều chỉnh cho phù hợp với bộ từ khóa cụ thể của bạn.</p><p>Đó là lý do tại sao chúng tôi cung cấp <em>Chế độ hiển thị dự án. </em> Số liệu này được tính theo cách tương tự như Mức độ hiển thị, nhưng thay vì sử dụng 500.000 từ khóa liên ngành, Mức độ hiển thị dự án chỉ dựa trên các từ khóa trong Trình theo dõi xếp hạng của bạn.</p><p>Nói cách khác, Mức độ hiển thị dự án. là điểm hiển thị tùy chỉnh cho tập hợp từ khóa duy nhất có liên quan đến doanh nghiệp của bạn.</p><p>Bạn sẽ tìm thấy Khả năng hiển thị dự án tại đây: <em>Dự án → Trình theo dõi thứ hạng → Khả năng hiển thị</em>.</p>< p>Như bạn có thể đã biết, bạn cũng có thể theo dõi thứ hạng của đối thủ cạnh tranh trong Trình theo dõi xếp hạng của mình. Bằng cách đó, bạn cũng sẽ có được Khả năng hiển thị dự án cho họ, cho phép so sánh thực tế hơn nhiều. Danh mục sản phẩm hoặc dịch vụ hơi khác một chút, Tài khoản Khả năng hiển thị dự án dành riêng cho những từ khóa bạn thực sự chia sẻ.</p>";
+$_LANG['store']['xoviNow']['faq10ans'] = "<p>Có thể bạn đã dừng lại để nghĩ, “Chờ đã, nhưng tôi không quan tâm đến khả năng hiển thị cho các từ khóa không liên quan gì đến doanh nghiệp của tôi.” Và bạn đúng. Trong khi Khả năng hiển thị là một điểm số tuyệt vời để có cái nhìn tổng quan về hiệu suất tổng thể của bạn và so sánh các trang web nói chung, nó không được tùy chỉnh cho bộ từ khóa cụ thể của bạn.</p><p>Đó là lý do tại sao chúng tôi cung cấp <em>Khả năng hiển thị Dự án</em>. Chỉ số này được tính toán theo cùng một cách như Khả năng hiển thị, nhưng thay vì sử dụng 500.000 từ khóa đa ngành, Khả năng hiển thị Dự án chỉ dựa trên các từ khóa trong Trình theo dõi Xếp hạng của bạn.</p><p>Nói cách khác, Khả năng hiển thị Dự án là một điểm số hiển thị tùy chỉnh cho bộ từ khóa độc đáo có liên quan đến doanh nghiệp của bạn.</p><p>Bạn sẽ tìm thấy Khả năng hiển thị Dự án tại đây: <em>Dự án → Trình theo dõi Xếp hạng → Khả năng hiển thị</em>.</p><p>Như bạn có thể đã biết, bạn cũng có thể theo dõi xếp hạng của đối thủ cạnh tranh trong Trình theo dõi Xếp hạng của bạn. Bằng cách đó, bạn cũng sẽ có Khả năng hiển thị Dự án cho họ, cho phép so sánh thực tế hơn nhiều. Vì vậy, ngay cả khi họ có danh mục sản phẩm hoặc dịch vụ hơi khác, Khả năng hiển thị Dự án chỉ tính đến các từ khóa mà bạn thực sự chia sẻ.</p>";
 $_LANG['store']['xoviNow']['faq11'] = "Tại sao điểm Hiển thị lại hữu ích?";
-$_LANG['store']['xoviNow']['faq11ans'] = "<p>Sử dụng điểm Hiển thị của bạn làm chỉ báo về hiệu suất SEO tổng thể, các vấn đề và tiềm năng tối ưu hóa của bạn.</p><p>< strong>1. Nhận ý tưởng về hiệu suất SEO tổng thể của bạn</strong></p><p>Bạn có thể theo dõi thứ hạng cho các từ khóa riêng lẻ và biết mình xếp hạng ở vị trí nào. Tuy nhiên, việc theo dõi thứ hạng là điều quan trọng. không cung cấp cho bạn cái nhìn toàn cảnh về sự cải thiện tổng thể của thứ hạng của bạn—nhưng Khả năng hiển thị sẽ cung cấp cho bạn khi các biện pháp SEO của bạn có hiệu quả và thứ hạng được cải thiện thì điểm Khả năng hiển thị của bạn cũng vậy.</p><p><strong>2. Sự cố</strong></p><p>Khả năng hiển thị giảm đột ngột cho thấy có vấn đề trong hiệu suất SEO của bạn. Sử dụng Khả năng hiển thị như một cảnh báo. Nếu khả năng hiển thị giảm đáng kể, hãy bắt đầu tìm hiểu xem điều gì đã xảy ra:< /p><ul><li>Bạn đã phải chịu <strong>Hình phạt của Google</strong>. Hãy kiểm tra Search Console để biết thông báo. Hãy đảm bảo tuân theo <a href=\":googleWebmasterGuidelinesUrl\" target=\"_blank\. ">Nguyên tắc quản trị trang web của Google</a>.</li><li>Có những hậu quả từ sự thay đổi gần đây trong thuật toán của Google. Hỏi về <strong>Bản cập nhật gần đây của Google</strong> và những gì chúng đòi hỏi.</li><li>Đối thủ cạnh tranh của bạn đã tối ưu hóa trang web và nội dung của họ và giờ đây họ đã vượt trội so với bạn. So sánh <strong>Chế độ hiển thị</strong> (lịch sử) của họ với của bạn. Sử dụng <a href=\":waybackMachineUrl\" target=\"_blank\">Wayback Machine</a> để so sánh nội dung của chúng đã thay đổi như thế nào.</li><li>Bạn đã khởi chạy lại trang web của mình mà không quan tâm đến SEO. Ví dụ: kiểm tra <em>robots.txt</em> và <em>.htaccess</em> để tìm các trang vô tình bị chặn, mã trạng thái 404 tăng lên, chuyển hướng 301 bị lỗi và các liên kết nội bộ.<br><br>Bạn đã thay đổi nội dung của bạn theo cách không giúp ích cho thứ hạng của bạn. Hãy cân nhắc việc hủy bỏ các thay đổi.<br><br>Trang web của bạn có vấn đề kỹ thuật. Chạy <em>Kiểm tra trang web</em> hoặc kiểm tra <strong><em>Cố vấn</em></strong> của bạn để biết các nhiệm vụ kỹ thuật đang mở. Kiểm tra phần phụ trợ của bạn để tìm <strong>plugin</strong> đã lỗi thời, được cập nhật gần đây hoặc không tương thích. Điều này có thể gây ra sự cố.<br><br>Nguyên nhân là do sự cố lưu trữ. Hỏi xem máy chủ của bạn có thực hiện các thay đổi gần đây, có bị tấn công, di chuyển máy chủ hay gặp sự cố kỹ thuật hay không. Xem liệu máy chủ của bạn có vấn đề hay không.</li></ul><p>Hãy nhớ rằng danh sách này chưa đầy đủ. Một hoặc nhiều lý do trong số đó có thể áp dụng đồng thời hoặc có thể có nhiều lý do khác.</p><p><strong>3. So sánh đối thủ cạnh tranh</strong></p><p>Khả năng hiển thị là thước đo tuyệt vời để so sánh nhanh hai hoặc nhiều trang web. Kiểm tra khả năng hiển thị của bạn so với họ. Ai đang cạnh tranh với ai? Đối thủ cạnh tranh có vượt trội hơn bạn trong quá khứ hay ngược lại không? Ai đang dẫn đầu lĩnh vực này và khoảng cách giữa bạn và đối thủ mạnh nhất của bạn là bao nhiêu? Việc trả lời những câu hỏi đó sẽ giúp bạn phát triển chiến lược SEO để đạt được (và duy trì) vị trí dẫn đầu trong lĩnh vực của mình.</p><p><strong>4. Theo dõi quá trình phát triển khả năng hiển thị theo thời gian bằng dữ liệu lịch sử</strong></p><p>Bạn muốn biết trang web hoạt động như thế nào theo thời gian? Chúng tôi cung cấp dữ liệu lịch sử từ năm 2009, không có biến động theo mùa. Bằng cách đó, bạn có thể theo dõi và so sánh Mức độ hiển thị lịch sử cũng như xem sự phát triển của chúng trong thời gian dài.</p>";
+$_LANG['store']['xoviNow']['faq11ans'] = "<p>Sử dụng điểm Hiển thị của bạn làm chỉ báo về hiệu suất SEO tổng thể, các vấn đề và tiềm năng tối ưu hóa của bạn.</p><p>< strong>1. Nhận ý tưởng về hiệu suất SEO tổng thể của bạn</strong></p><p>Bạn có thể theo dõi thứ hạng cho các từ khóa riêng lẻ và biết mình xếp hạng ở vị trí nào. Tuy nhiên, việc theo dõi thứ hạng là điều quan trọng. không cung cấp cho bạn cái nhìn toàn cảnh về sự cải thiện tổng thể của thứ hạng của bạn—nhưng Khả năng hiển thị sẽ cung cấp cho bạn khi các biện pháp SEO của bạn có hiệu quả và thứ hạng được cải thiện thì điểm Khả năng hiển thị của bạn cũng vậy.</p><p><strong>2. Sự cố</strong></p><p>Khả năng hiển thị giảm đột ngột cho thấy có vấn đề trong hiệu suất SEO của bạn. Sử dụng Khả năng hiển thị như một cảnh báo. Nếu khả năng hiển thị giảm đáng kể, hãy bắt đầu tìm hiểu xem điều gì đã xảy ra:< /p><ul><li>Bạn đã phải chịu <strong>Hình phạt của Google</strong>. Hãy kiểm tra Search Console để biết thông báo. Hãy đảm bảo tuân theo <a href=\":googleWebmasterGuidelinesUrl\" target=\"_blank\. >Nguyên tắc quản trị trang web của Google</a>.</li><li>Có những hậu quả từ sự thay đổi gần đây trong thuật toán của Google. Hỏi về <strong>Bản cập nhật gần đây của Google</strong> và những gì chúng đòi hỏi.</li><li>Đối thủ cạnh tranh của bạn đã tối ưu hóa trang web và nội dung của họ và giờ đây họ đã vượt trội so với bạn. So sánh <strong>Chế độ hiển thị</strong> (lịch sử) của họ với của bạn. Sử dụng <a href=\":waybackMachineUrl\" target=\"_blank\">Wayback Machine</a> để so sánh nội dung của chúng đã thay đổi như thế nào.</li><li>Bạn đã khởi chạy lại trang web của mình mà không quan tâm đến SEO. Ví dụ: kiểm tra <em>robots.txt</em> và <em>.htaccess</em> để tìm các trang vô tình bị chặn, mã trạng thái 404 tăng lên, chuyển hướng 301 bị lỗi và các liên kết nội bộ.<br><br>Bạn đã thay đổi nội dung của bạn theo cách không giúp ích cho thứ hạng của bạn. Hãy cân nhắc việc hủy bỏ các thay đổi.<br><br>Trang web của bạn có vấn đề kỹ thuật. Chạy <em>Kiểm tra trang web</em> hoặc kiểm tra <strong><em>Cố vấn</em></strong> của bạn để biết các nhiệm vụ kỹ thuật đang mở. Kiểm tra phần phụ trợ của bạn để tìm <strong>plugin</strong> đã lỗi thời, được cập nhật gần đây hoặc không tương thích. Điều này có thể gây ra sự cố.<br><br>Nguyên nhân là do sự cố lưu trữ. Hỏi xem máy chủ của bạn có thực hiện các thay đổi gần đây, có bị tấn công, di chuyển máy chủ hay gặp sự cố kỹ thuật hay không. Xem liệu máy chủ của bạn có vấn đề hay không.</li></ul><p>Hãy nhớ rằng danh sách này chưa đầy đủ. Một hoặc nhiều lý do trong số đó có thể áp dụng đồng thời hoặc có thể có nhiều lý do khác.</p><p><strong>3. So sánh đối thủ cạnh tranh</strong></p><p>Khả năng hiển thị là thước đo tuyệt vời để so sánh nhanh hai hoặc nhiều trang web. Kiểm tra khả năng hiển thị của bạn so với họ. Ai đang cạnh tranh với ai? Đối thủ cạnh tranh có vượt trội hơn bạn trong quá khứ hay ngược lại không? Ai đang dẫn đầu lĩnh vực này và khoảng cách giữa bạn và đối thủ mạnh nhất của bạn là bao nhiêu? Việc trả lời những câu hỏi đó sẽ giúp bạn phát triển chiến lược SEO để đạt được (và duy trì) vị trí dẫn đầu trong lĩnh vực của mình.</p><p><strong>4. Theo dõi quá trình phát triển khả năng hiển thị theo thời gian bằng dữ liệu lịch sử</strong></p><p>Bạn muốn biết trang web hoạt động như thế nào theo thời gian? Chúng tôi cung cấp dữ liệu lịch sử từ năm 2009, không có biến động theo mùa. Bằng cách đó, bạn có thể theo dõi và so sánh Mức độ hiển thị lịch sử cũng như xem sự phát triển của chúng trong thời gian dài.</p>";
 $_LANG['store']['xoviNow']['faq12'] = "Làm cách nào tôi có thể cải thiện điểm hiển thị của mình?";
-$_LANG['store']['xoviNow']['faq12ans'] = "<p>Câu trả lời ngắn: Đừng coi việc cải thiện Khả năng hiển thị thành mục tiêu trong chiến lược SEO của bạn.</p><p>Câu trả lời dài: Khả năng hiển thị < em>phản ánh</em> chất lượng thứ hạng của bạn trong một số liệu duy nhất; điều này sẽ không dẫn đến thứ hạng tốt hơn. Hãy đặt mục tiêu cải thiện thứ hạng cho các từ khóa có liên quan mà khách hàng tiềm năng thực sự sử dụng để tìm các sản phẩm và dịch vụ như của bạn. Cải thiện thứ hạng của bạn cũng sẽ cải thiện Khả năng hiển thị của bạn. Nhưng thứ hạng của bạn mới thực sự quan trọng.</p><p>Theo nguyên tắc chung, điểm Hiển thị của bạn sẽ cao hơn nếu</p><ul><li>Tên miền của bạn. URL được xếp hạng ở vị trí tốt</li><li>Bạn có nhiều URL được lập chỉ mục với thứ hạng tốt</li><li>Bạn xếp hạng tốt cho các từ khóa có lượng tìm kiếm cao</li></ul>";
+$_LANG['store']['xoviNow']['faq10ans'] = "<p>Có thể bạn đã dừng lại để nghĩ, “Chờ đã, nhưng tôi không quan tâm đến khả năng hiển thị cho các từ khóa không liên quan gì đến doanh nghiệp của tôi.” Và bạn đúng. Trong khi Khả năng hiển thị là một điểm số tuyệt vời để có cái nhìn tổng quan về hiệu suất tổng thể của bạn và so sánh các trang web nói chung, nó không được tùy chỉnh cho bộ từ khóa cụ thể của bạn.</p><p>Đó là lý do tại sao chúng tôi cung cấp <em>Khả năng hiển thị Dự án</em>. Chỉ số này được tính toán theo cùng một cách như Khả năng hiển thị, nhưng thay vì sử dụng 500.000 từ khóa đa ngành, Khả năng hiển thị Dự án chỉ dựa trên các từ khóa trong Trình theo dõi Xếp hạng của bạn.</p><p>Nói cách khác, Khả năng hiển thị Dự án là một điểm số hiển thị tùy chỉnh cho bộ từ khóa độc đáo có liên quan đến doanh nghiệp của bạn.</p><p>Bạn sẽ tìm thấy Khả năng hiển thị Dự án tại đây: <em>Dự án → Trình theo dõi Xếp hạng → Khả năng hiển thị</em>.</p><p>Như bạn có thể đã biết, bạn cũng có thể theo dõi xếp hạng của đối thủ cạnh tranh trong Trình theo dõi Xếp hạng của bạn. Bằng cách đó, bạn cũng sẽ có Khả năng hiển thị Dự án cho họ, cho phép so sánh thực tế hơn nhiều. Vì vậy, ngay cả khi họ có danh mục sản phẩm hoặc dịch vụ hơi khác, Khả năng hiển thị Dự án chỉ tính đến các từ khóa mà bạn thực sự chia sẻ.</p>";
 $_LANG['store']['xoviNow']['promo']['sidebar']['title'] = "Công cụ SEO";
 $_LANG['store']['xoviNow']['promo']['sidebar']['body'] = "Cải thiện hiệu suất trang web của bạn với thứ hạng trang web, từ khóa và thông tin chính xác, đáng tin cậy và dễ sử dụng cố vấn.";
 $_LANG['store']['xoviNow']['cartTitle'] = "Công cụ SEO";
