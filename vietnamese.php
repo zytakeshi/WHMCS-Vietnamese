@@ -1,7 +1,7 @@
 <?php
 /**
 * Tệp ngôn ngữ WHMCS
-* Tiếng Anh (en)
+* Tiếng Việt (vn)
 *
 * Xin lưu ý: Các tệp ngôn ngữ này bị ghi đè trong quá trình cập nhật phần mềm
 * và do đó không nên chỉnh sửa trực tiếp các tệp này. Thay vào đó chúng tôi
