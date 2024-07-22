@@ -1,23 +1,4 @@
 <?php
-/**
-* Tệp ngôn ngữ WHMCS
-* Tiếng Việt (vn)
-*
-* Xin lưu ý: Các tệp ngôn ngữ này bị ghi đè trong quá trình cập nhật phần mềm
-* và do đó không nên chỉnh sửa trực tiếp các tệp này. Thay vào đó chúng tôi
-* khuyên bạn nên sử dụng phần ghi đè để tùy chỉnh văn bản được hiển thị theo cách
-* sẽ được bảo quản an toàn trong suốt quá trình nâng cấp.
-*
-* Để biết hướng dẫn về ghi đè, vui lòng truy cập:
-* https://developers.whmcs.com/lacular/overrides/
-*
-* @package WHMCS
-* @author WHMCS Limited < Development@whmcs.com>
-* @copyright Bản quyền (c) WHMCS Limited 2005-2018
-* @license https://www.whmcs.com/license/ WHMCS Eula
-* @version $Id$
-* @link https://www.whmcs.com/
-*/
 if (!defined("WHMCS")) die("You cannot access this file directly");
 $_LANG['locale'] = "vi_VN";
 $_LANG['accountinfo'] = "Thông tin tài khoản";
@@ -4137,4 +4118,3 @@ $_LANG['store']['xoviNow']['promo']['sidebar']['title'] = "Công cụ SEO";
 $_LANG['store']['xoviNow']['promo']['sidebar']['body'] = "Cải thiện hiệu suất trang web của bạn với thứ hạng trang web, từ khóa và thông tin chính xác, đáng tin cậy và dễ sử dụng cố vấn.";
 $_LANG['store']['xoviNow']['cartTitle'] = "Công cụ SEO";
 $_LANG['store']['xoviNow']['cartShortDescription'] = "Cải thiện hiệu suất trang web của bạn với thứ hạng trang web, từ khóa và cố vấn chính xác, đáng tin cậy và dễ sử dụng.";
-////////// Kết thúc file tiếng anh. Không đặt bất kỳ chuỗi dịch nào bên dưới dòng này!
